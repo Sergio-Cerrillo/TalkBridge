@@ -4,10 +4,10 @@
     "slug": "TalkBridge",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Logo-tb.png",
+    "icon": "./assets/logo_size.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo_size.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo_size.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.sergiocerrilloruiz.TalkBridge"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo_size.png"
     },
     "extra": {
       "eas": {
