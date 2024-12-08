@@ -22,9 +22,8 @@ jobs:
           npm install -g eas-cli
           npm install
 
-      - name: Authenticate with Expo
-        run: |
-          echo ${{ secrets.EXPO_TOKEN }} | eas login --token
+      - name: Set Expo token
+        run: echo "EXPO_TOKEN=${{ secrets.EXPO_TOKEN }}" >> $GITHUB_ENV
 
       - name: Run EAS Build
         run: eas build --platform android --non-interactive
